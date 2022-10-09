@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #003147;
+}
+.bt{
+  background-color: #003147;
+}
+/* Navbar */
+.uni{
+  background-color: white;
+}
+h1{
+  font-family: 'Abril Fatface', cursive;
+font-family: 'Alkalami', serif;
+font-size: 60px;
+}
+h2{
+    font-size: 1.5 em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+.nav-list {
+  padding: 10px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  margin-top: 5px;
+}
+li {
+  padding-left: 50px;
+  font-size: large;
+}
+.create {
+  font-size: large;
+  padding: 9px;
+  border-radius: 50px;
+  margin-top: 20px;
+  margin-left: 10%;
+}
+.home-name {
+  margin-left: 10%;
+  margin-top: 300px;
+}
+.icon {
+  position: absolute;
+  left: 700px;
+  bottom: 30px;
+}
+
+.container1{
+  display: flex;
+  justify-content:space-around;
+  flex-wrap: wrap;
+}
+.cr{
+  margin-top: 40px;
+}
+.Profession{
+  text-align: center;
+  padding-top: 200px;
+}
+
+@media all and(max-width : 1024px) {
+  .icon {
+    position: absolute;
+    left: 100px;
+  }
+}
+/*Mobile Screen*/
+
+
+@media all and (max-width: 780px) {
+  .icon {
+    position: absolute;
+    left: 200px;
+    bottom: 40px;
+  }
+  .prof {
+    margin-left: 15%;
+  }
+}
